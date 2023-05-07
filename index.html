@@ -4,10 +4,128 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Chilling Cafe</title>
 </head>
 <body>
-    <p>Hello World!</p>
-    <H1>Hello Dima!</H1>
+    <header class="header container">
+        <div class="header__wrapper">
+            <img src="img/chilling_cafe_logo.png" alt="logo_cafe" class="header__logo">
+            <h1 class="header__title">Chilling Cafe</h1>
+        </div>
+        <img src="img/main_bg.jpg" alt="photo_cafe" class="header__photo">
+    </header>
+    <main class="container">
+        <section class="menu container">
+            <h2 class="title">Coffee Menu</h2>
+            <div class="menu__wrapper">
+                <div class="menu__item menu__item-main">
+                    <div class="menu__name"></div>
+                    <div class="menu__hot">Hot</div>
+                    <div class="menu__iced">Iced</div>
+                    <div class="menu__blended">Blended</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__name">Americano</div>
+                    <div class="menu__hot">$10</div>
+                    <div class="menu__iced">$15</div>
+                    <div class="menu__blended">-</div>
+                </div>
+                <div class="menu__item menu__item-second">
+                    <div class="menu__name">Cuppucino</div>
+                    <div class="menu__hot">$15</div>
+                    <div class="menu__iced">$18</div>
+                    <div class="menu__blended">$20</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__name">Fresh Latte</div>
+                    <div class="menu__hot">$10</div>
+                    <div class="menu__iced">$18</div>
+                    <div class="menu__blended">$20</div>
+                </div>
+                <div class="menu__item menu__item-second">
+                    <div class="menu__name">Espresso</div>
+                    <div class="menu__hot">$10</div>
+                    <div class="menu__iced">$15</div>
+                    <div class="menu__blended">-</div>
+                </div>
+            </div>
+        </section>
+        <section class="menu container">
+            <h2 class="title">Tea Menu</h2>
+            <div class="menu__wrapper">
+                <div class="menu__item menu__item-main">
+                    <div class="menu__name"></div>
+                    <div class="menu__hot">Hot</div>
+                    <div class="menu__iced">Iced</div>
+                    <div class="menu__blended">Addon</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__name">Pure White Milk</div>
+                    <div class="menu__hot">$5</div>
+                    <div class="menu__iced">$10</div>
+                    <div class="menu__blended">-</div>
+                </div>
+                <div class="menu__item menu__item-second">
+                    <div class="menu__name">Mixed Fruit Tea</div>
+                    <div class="menu__hot">$10</div>
+                    <div class="menu__iced">$10</div>
+                    <div class="menu__blended">$8</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__name">Original Tea</div>
+                    <div class="menu__hot">$12</div>
+                    <div class="menu__iced">$12</div>
+                    <div class="menu__blended">-</div>
+                </div>
+            </div>
+        </section>
+        <section class="special container">
+            <h2 class="title">Special Items</h2>
+            <div class="special__wrapper">
+                <div class="special__item">
+                    <img src="img/soft_deli_cup.jpg" alt="soft_deli_cup" class="special__img">
+                    <p class="special__name">Soft Deli Cup</p>
+                    <p class="special__price">$25</p>
+                </div>
+                <div class="special__item">
+                    <img src="img/coffee_art.jpg" alt="coffee_art" class="special__img">
+                    <p class="special__name">Coffe Art</p>
+                    <p class="special__price">$30</p>
+                </div>
+                <div class="special__item">
+                    <img src="img/speciality_tea.jpg" alt="speciality_tea" class="special__img">
+                    <p class="special__name">Speciality Tea</p>
+                    <p class="special__price">$35</p>
+                </div>
+            </div>
+            <hr class="special__hr">
+        </section>
+        <section class="about container">
+            <h2 class="title">About our cafe</h2>
+            <p class="text margin-40">
+                Chilling Cafe is a simple HTML website template provided by Tooplate. Feel free to use it for your cafe of coffee shop. This layout is a mobile and tablet friendly.
+            </p>
+            <br>
+            <p class="text">
+                You can download and use this HTML one-page template for your business. You are not allowed to re-host the template ZIP file on your template collecion sites. Thank you.
+            </p>
+            <hr class="special__hr">
+        </section>
+        <section class="feedback container">
+            <h2 class="title">Talk to us</h2>
+            <p class="text margin-40">
+                Reach us via <b>Email</b> or follow us on social icons below. Thank you.
+            </p>
+        </section>
+    </main>
+    <footer class="footer container">
+        <div class="footer__wrapper">
+            <a href="#"><img src="icons/facebook_logo.jpg" alt="facebook" class="footer__link"></a>
+            <a href="#"><img src="icons/twitter_logo.jpg" alt="twitter" class="footer__link"></a>
+            <a href="#"><img src="icons/instagram_logo.jpg" alt="instagram" class="footer__link"></a>
+            <a href="#"><img src="icons/pinterest_logo.jpg" alt="pinterest" class="footer__link"></a>
+        </div>
+    </footer>
 </body>
 </html>
