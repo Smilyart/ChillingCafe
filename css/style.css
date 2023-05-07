@@ -220,4 +220,8 @@ b {
     .container {
         width: 720px;
     }
+
+    .special .special__img {
+        max-height: 204px;
+    }
 }
